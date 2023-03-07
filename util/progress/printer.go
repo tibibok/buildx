@@ -107,5 +107,3 @@ func NewPrinter(ctx context.Context, w io.Writer, out console.File, mode string)
 	}()
 	return pw, nil
 }
-
-}
